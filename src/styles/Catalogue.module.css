@@ -1,0 +1,16 @@
+.catalogue {
+  background: url('../images/bg_catalogue.png') no-repeat center center / cover;
+  padding-top: 30px;
+  height: auto;
+  padding-bottom: 25px;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  -webkit-text-fill-color: var(--primary-background);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--primary-color);
+  font-size: 3rem;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,60 @@
+.about {
+  background: url('../images/bigLogo.png') no-repeat center center;
+  background-size: 600px 600px;
+  height: 100vh;
+}
+
+.container {
+  padding: 45px 65px 25px;
+}
+
+.upper_title {
+  width: 27%;
+  text-align: end;
+  margin-top: 15px;
+}
+
+.nyumml {
+  width: 290px;
+  height: 92px;
+}
+
+.down {
+  width: 100%;
+}
+
+.text_title {
+  color: #A68100;
+  margin-top: 0;
+  font-family: 'Glass Antiqua';
+  font-size: 22px;
+}
+
+.text {
+  text-align: justify;
+  color: #62593C;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 25px 35px;
+  }
+
+  .text_title {
+    font-size: 18px;
+  }
+
+  .nyumml {
+    width: 260px;
+    height: 62px;
+  }
+
+  .text {
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}

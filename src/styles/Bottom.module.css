@@ -1,0 +1,177 @@
+.bottom {
+  background: linear-gradient(180deg, rgba(255, 245, 209, 0) 0%, #FFF5D1 100%);
+  padding: 50px 30px;
+}
+
+.btn {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--primary-background);
+  color: var(--primary-color);
+  padding: 19px 29px;
+  width: 550px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn.true {
+  border-radius: 20px 20px 0 0;
+}
+
+.btn.false {
+  border-radius: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.left {
+  font-size: 20px;
+}
+
+.left .find {
+  color: var(--primary-color);
+}
+
+.left .socmed {
+  display: inline-block;
+  color: var(--primary-color);
+}
+
+.left .socmed {
+  margin-right: 10px;
+}
+
+.link {
+  display: block;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.right img {
+  display: block;
+}
+
+.form {
+  background: var(--primary-background);
+  color: #7C724C;
+  width: 550px;
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+}
+
+.container_form {
+  padding: 19px 20px;
+}
+
+.form_control {
+  margin-bottom: 10px;
+}
+
+.form_control :where(input, textarea) {
+  padding: 7px 11px;
+  width: 100%;
+  display: inline-block;
+  margin: 7px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #7C724C;
+  background: var(--primary-background);
+}
+
+.form_control :where(input, textarea)::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+  font-style: italic;
+}
+
+.form_control :where(input, textarea):focus {
+  color: rgba(0, 0, 0, 0.6);
+  font-style: italic;
+}
+
+.form_control :where(input, textarea):valid {
+  color: rgba(0, 0, 0, 0.6);
+  font-style: italic;
+}
+
+
+.form_control textarea {
+  height: 100px;
+}
+
+.label {
+  display: block;
+  margin-left: 15px;
+  font-size: 17px;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.heart {
+  cursor: pointer;
+}
+
+.submit {
+  margin: 5px 0 5px auto;
+  display: block;
+  width: 100px;
+  box-sizing: border-box;
+  padding: 5px 14px;
+  background: #FFE27C;
+  color: #7C724C;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 1.43158px 1.43158px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-wdith: 768px) {
+  .btn {
+    width: 450px;
+  }
+
+  .form {
+    width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 300px;
+  }
+
+  .form {
+    width: 300px;
+  }
+
+  .find {
+    font-size: 1.1rem;
+  }
+
+  .right img:first-child {
+    width: 70px;
+    height: 67px;
+  }
+
+  .right img:nth-child(2) {
+    width: 130px;
+  }
+}

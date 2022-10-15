@@ -1,0 +1,92 @@
+.divider {
+  height: 30px;
+  width: 100%;
+  background-color: var(--primary-background);
+}
+
+.cookie_bg {
+  background: #FFE27C;
+  padding: 0 0 10px 0;
+}
+
+.cookie_title {
+  background: #62593C;
+  padding: 5px 15px;
+  width: 25%;
+  font-size: 26px;
+  text-align: end;
+  color: #fff;
+}
+
+.card {
+  background: var(--primary-background);
+  width: 650px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.crispy_bg {
+  background: rgba(255, 226, 124, 0.7);
+  padding: 0 0 10px 0;
+}
+
+.crispy_title {
+  background: #62593C;
+  padding: 5px 15px;
+  width: 64%;
+  font-size: 26px;
+  text-align: end;
+  color: #fff;
+}
+
+.card_crispy {
+  background: #FFE27C;
+  width: 650px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.meringue_bg {
+  background: var(--primary-background);
+  padding: 0 0 10px 0;
+}
+
+.meringue_title {
+  background: #62593C;
+  padding: 5px 15px;
+  width: calc(98% - 3px);
+  font-size: 26px;
+  text-align: end;
+  color: #fff;
+}
+
+.card_mer {
+  background: #FFD029;
+  width: 650px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .meringue_title {
+    width: calc(98% - 13px);
+  }
+}
+
+@media (max-width: 480px) {
+  .meringue_title {
+    width: calc(98% - 19px);
+  }
+
+  .meringue_title,
+  .crispy_title,
+  .cookie_title {
+    font-size: 23px;
+  }
+
+  .card,
+  .card_mer,
+  .card_crispy {
+    width: 350px;
+  }
+}

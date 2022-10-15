@@ -1,0 +1,78 @@
+.hero {
+  background: url('../images/cookiebg.png') no-repeat center center / cover;
+  position: relative;
+  height: 100vh;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+
+.title {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.our {
+  font-size: 30px;
+  color: #fff;
+}
+
+.sig,
+.cookie {
+  font-size: 55px;
+  color: #fff;
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 25px;
+  font-size: 22px;
+  background: var(--primary-color);
+  color: var(--primary-background);
+  border: none;
+  border-radius: 22px;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .hero {
+    background-size: 480px 100vh;
+  }
+
+  .title {
+    left: 3%;
+  }
+
+  .our {
+    font-size: 20px;
+  }
+
+  .sig,
+  .cookie {
+    font-size: 40px;
+  }
+
+  .wrapper {
+    right: 3%;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 5px 15px;
+  }
+}
